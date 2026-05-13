@@ -274,8 +274,8 @@ MIT © [Marcelo Leal](https://github.com/marcelocardosoleal)
 ## 🔗 Links
 
 - [npm package](https://www.npmjs.com/package/wm-method)
-- [GitHub](https://github.com/marcelocardosoleal/wm-method)
-- [Issues / Bugs](https://github.com/marcelocardosoleal/wm-method/issues)
+- [GitHub](https://github.com/MarcelocardosoLeal/wm-method)
+- [Issues / Bugs](https://github.com/MarcelocardosoLeal/wm-method/issues)
 
 ---
 

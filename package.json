@@ -26,11 +26,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcelocardosoleal/wm-method.git"
+    "url": "git+https://github.com/MarcelocardosoLeal/wm-method.git"
   },
-  "homepage": "https://github.com/marcelocardosoleal/wm-method#readme",
+  "homepage": "https://github.com/MarcelocardosoLeal/wm-method#readme",
   "bugs": {
-    "url": "https://github.com/marcelocardosoleal/wm-method/issues"
+    "url": "https://github.com/MarcelocardosoLeal/wm-method/issues"
   },
   "bin": {
     "wm-method": "./bin/install.js",
