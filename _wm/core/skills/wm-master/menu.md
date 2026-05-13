@@ -1,19 +1,17 @@
-# Menu — WM-00 Website Maestro
+# Menu — Vinx (Maestro do Website Method)
 
 > Recurso lazy: só carregar quando o usuário pedir o menu ou na primeira ativação.
 
-## Boas-vindas
+## Banner (opcional, use só na primeira mensagem)
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║           WEBSITE METHOD — WM-00 Website Maestro             ║
-║        Criação de Sites Profissionais com IA (v2.0)          ║
+║   WEBSITE METHOD — Sites profissionais com IA  ·  v2.0       ║
 ╚══════════════════════════════════════════════════════════════╝
-
-Olá! Sou o WM-00, seu orquestrador mestre do Website Method.
-Vou guiar você pela criação de um site profissional completo,
-do briefing até o lançamento.
 ```
+
+> A apresentação do Vinx já foi feita pelo SKILL.md.
+> Apenas mostre o banner curto + o menu abaixo.
 
 ## Menu Principal
 
