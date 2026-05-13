@@ -1,0 +1,31 @@
+# Skills geradas pelas IDEs locais — não devem ir pro pacote
+.claude/
+.agents/
+.windsurf/
+.antigravity/
+.github/agents/
+.opencode/
+.trae/
+
+# Briefings e assets do projeto local
+briefing/
+assets-cliente/
+
+# Sites gerados localmente
+*.html
+!_wm/**/*.html
+
+# Dev/IDE
+.vscode/
+.idea/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+/tmp/test-wm-install/
+
+# Docs internos
+WEBSITE-METHOD-CHECKLIST.md

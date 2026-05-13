@@ -1,0 +1,55 @@
+{
+  "name": "wm-method",
+  "version": "2.0.0",
+  "description": "Website Method v2 — Sistema BMad-style de criação de sites profissionais com IA. 21 agentes especialistas, multi-IDE (Claude Code, Cursor, Windsurf, Antigravity, Copilot, OpenCode, Trae). Zero dependências, do briefing à publicação.",
+  "author": {
+    "name": "Marcelo Leal",
+    "email": "marcelocardosoleal@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "website",
+    "landing-page",
+    "ai-agents",
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "antigravity",
+    "skills",
+    "bmad",
+    "lgpd",
+    "seo",
+    "agents",
+    "website-builder",
+    "ai-website",
+    "wm-method"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelocardosoleal/wm-method.git"
+  },
+  "homepage": "https://github.com/marcelocardosoleal/wm-method#readme",
+  "bugs": {
+    "url": "https://github.com/marcelocardosoleal/wm-method/issues"
+  },
+  "bin": {
+    "wm-method": "./bin/install.js",
+    "wm": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "_wm/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "sync": "node _wm/core/lib/sync.js",
+    "sync:all": "node _wm/core/lib/sync.js --all",
+    "install:local": "node bin/install.js",
+    "test:install": "cd /tmp && rm -rf test-wm && mkdir test-wm && cd test-wm && node $OLDPWD/bin/install.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}

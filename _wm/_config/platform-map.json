@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "description": "Mapa de plataformas — onde cada IDE/IA espera encontrar os skills",
+  "platforms": {
+    "claude-code": {
+      "name": "Claude Code",
+      "target": ".claude/skills",
+      "format": "skill-dir",
+      "preferred": true,
+      "detect": [".claude/"]
+    },
+    "cursor": {
+      "name": "Cursor",
+      "target": ".agents/skills",
+      "format": "skill-dir",
+      "preferred": true,
+      "detect": [".cursor/", ".cursorrules"]
+    },
+    "windsurf": {
+      "name": "Windsurf",
+      "target": ".windsurf/skills",
+      "format": "skill-dir",
+      "preferred": true,
+      "detect": [".windsurf/", ".windsurfrules"]
+    },
+    "antigravity": {
+      "name": "Antigravity IDE",
+      "target": ".antigravity/skills",
+      "format": "skill-dir",
+      "preferred": true,
+      "rules-file": ".antigravity/rules",
+      "detect": [".antigravity/"]
+    },
+    "github-copilot": {
+      "name": "GitHub Copilot (VS Code)",
+      "target": ".github/agents",
+      "format": "agent-pointer",
+      "preferred": false,
+      "detect": [".vscode/"]
+    },
+    "opencode": {
+      "name": "OpenCode",
+      "target": ".opencode/skills",
+      "format": "skill-dir",
+      "preferred": false,
+      "detect": [".opencode/"]
+    },
+    "trae": {
+      "name": "Trae AI",
+      "target": ".trae/skills",
+      "format": "skill-dir",
+      "preferred": false,
+      "detect": [".trae/"]
+    },
+    "universal": {
+      "name": "AGENTS.md (qualquer IA)",
+      "target": "AGENTS.md",
+      "format": "single-file",
+      "preferred": true,
+      "detect": ["always"]
+    }
+  }
+}

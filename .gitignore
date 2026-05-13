@@ -1,0 +1,48 @@
+# =====================================================
+# Skills geradas pelo sync (todas IDEs) — não commitar
+# Estas pastas são recriadas por `node _wm/core/lib/sync.js`
+# =====================================================
+.claude/
+.agents/
+.windsurf/
+.antigravity/
+.github/agents/
+.opencode/
+.trae/
+
+# =====================================================
+# Outputs gerados pelo sync
+# =====================================================
+AGENTS.md
+_wm/_config/manifest.csv
+
+# =====================================================
+# Config local do projeto (não vai no pacote npm)
+# =====================================================
+_wm/wm-config.json
+WEBSITE-METHOD-CHECKLIST.md
+
+# =====================================================
+# Pastas criadas pelo install.js no projeto do usuário
+# (não devem ir no repo do pacote — o instalador cria)
+# =====================================================
+briefing/
+assets-cliente/
+
+# =====================================================
+# Sites gerados pelos agentes
+# =====================================================
+*.html
+*.css
+!_wm/**/*
+
+# =====================================================
+# OS / IDE / build
+# =====================================================
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.tgz
