@@ -109,12 +109,12 @@ function syncAgentPointer(platformKey, def, skills) {
 function syncSingleFile(platformKey, def, skills) {
   const target = path.join(ROOT, def.target);
   let out = `# AGENTS.md — Website Method\n\n`;
-  out += `> Universal AI agent instructions. Compatible with any AI/IDE that reads AGENTS.md.\n\n`;
-  out += `## How to use\n\n`;
-  out += `1. Read \`_wm/core/skills/wm-master/SKILL.md\` to load the main menu\n`;
-  out += `2. Check the \`briefing/\` folder for existing briefings\n`;
-  out += `3. Route to the correct specialist skill based on user request\n\n`;
-  out += `## Available skills (catalog)\n\n`;
+  out += `> Instruções universais para agentes de IA. Compatível com qualquer IA/IDE que lê AGENTS.md.\n\n`;
+  out += `## Como usar\n\n`;
+  out += `1. Leia \`_wm/core/skills/wm-master/SKILL.md\` para carregar o Vinx (maestro/menu principal)\n`;
+  out += `2. Antes de qualquer diálogo, verifique a pasta \`briefing/\` (lógica em \`_wm/core/shared/briefing-check.md\`)\n`;
+  out += `3. Roteie para o skill especialista correto baseado no pedido do usuário\n\n`;
+  out += `## O time (catálogo de skills)\n\n`;
   for (const skill of skills) {
     const skillFile = path.join(SOURCE_DIR, skill, 'SKILL.md');
     if (!fs.existsSync(skillFile)) continue;
@@ -124,17 +124,18 @@ function syncSingleFile(platformKey, def, skills) {
     const nameM = fmMatch[1].match(/name:\s*(.+)/);
     const descM = fmMatch[1].match(/description:\s*(.+)/);
     out += `- **${nameM?.[1] || skill}** — ${descM?.[1] || ''}\n`;
-    out += `  File: \`_wm/core/skills/${skill}/SKILL.md\`\n\n`;
+    out += `  Arquivo: \`_wm/core/skills/${skill}/SKILL.md\`\n\n`;
   }
-  out += `## Shared blocks\n\n`;
-  out += `- \`_wm/core/shared/briefing-check.md\` — briefing folder detection logic\n`;
-  out += `- \`_wm/core/shared/asset-folders.md\` — asset folder instructions\n\n`;
-  out += `## Project conventions\n\n`;
-  out += `- Language: Português (Brasil)\n`;
-  out += `- Briefing folder: \`briefing/\`\n`;
-  out += `- Client assets: \`assets-cliente/\`\n`;
+  out += `## Blocos compartilhados\n\n`;
+  out += `- \`_wm/core/shared/briefing-check.md\` — lógica de detecção da pasta \`briefing/\`\n`;
+  out += `- \`_wm/core/shared/asset-folders.md\` — instruções de pastas de assets do cliente\n\n`;
+  out += `## Convenções do projeto\n\n`;
+  out += `- Idioma: Português (Brasil)\n`;
+  out += `- Pasta de briefing: \`briefing/\`\n`;
+  out += `- Assets do cliente: \`assets-cliente/\`\n`;
+  out += `- Identidade humana: cada skill tem um nome de pessoa (Vinx, Dante, Bento, Luna, Leal, Kael, Noah, Zion, Sara, Vick, Max, Lara). Nunca use códigos internos (AG-XX, WM-00) ao falar com o usuário.\n`;
   fs.writeFileSync(target, out);
-  ok(`${def.name} ${dim(`→ ${def.target} (catalog of ${skills.length} skills)`)}`);
+  ok(`${def.name} ${dim(`→ ${def.target} (catálogo de ${skills.length} skills)`)}`);
 }
 
 /* ── manifest CSV (camada 1 — catálogo leve) ── */

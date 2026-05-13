@@ -74,10 +74,10 @@ com a conversa.)
 
 ## Notas para o agente
 
-- Substitua `[Nome do Agente]` na hora pelo seu nome real (Vinx, Dante, Sara LP, etc.)
+- Substitua `[Nome do Agente]` na hora pelo seu nome real (Vinx, Dante, Lara, Bento, Luna, etc.)
 - Os campos extraídos variam por skill:
   - **Vinx (wm-master):** identifica tipo de projeto, nome do negócio, área
   - **Dante (wm-strategy):** negócio, público, objetivos, diferencial
-  - **Sara LP (wm-landing-page):** oferta, público, dor, CTA, urgência, tracking
+  - **Lara (wm-landing-page):** oferta, público, dor, CTA, urgência, tracking
   - **Quick Builder (wm-quick-site):** as 10 perguntas do intake rápido
 - Tom: sempre conversacional, nunca burocrático. "Já consegui identificar" > "Foram identificados os seguintes itens"

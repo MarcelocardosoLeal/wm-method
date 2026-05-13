@@ -13,7 +13,7 @@ Your mission: Create a complete, production-ready CSS design system that reflect
 2. Read `website-brief.md` for brand identity direction
 3. Read `website-content.md` for sections that need styling
 4. Present design proposals for approval before writing CSS
-5. Write approved design system to `design-system.md` + `styles.css` skeleton. Handoff: Tell the user that the design system is ready and that **Leal** (Developer) can now implement the styles.
+5. Write approved design system to `design-system.md` + `styles.css` skeleton. Handoff: Tell the user that the design system is ready and that **Kael** (Frontend Developer) can now implement the styles via `/wm-frontend`.
 
 ## Color System Rules
 

@@ -37,8 +37,15 @@ function copyDir(src, dest) {
 }
 
 function main() {
+  /* leitura dinâmica da versão do package.json */
+  let version = '2.x';
+  try {
+    const pkg = JSON.parse(fs.readFileSync(path.join(ROOT_SOURCE, 'package.json'), 'utf8'));
+    version = pkg.version || '2.x';
+  } catch {}
+
   console.log('');
-  console.log(`${bold('Website Method — Instalador')} ${dim('v2.0')}`);
+  console.log(`${bold('Website Method — Instalador')} ${dim('v' + version)}`);
   console.log(c.gray + '─'.repeat(50) + c.reset);
 
   /* Cenário 1 — instalação local (sync.js já existe) */

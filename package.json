@@ -1,6 +1,6 @@
 {
   "name": "wm-method",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Website Method v2 — Sistema BMad-style de criação de sites profissionais com IA. 21 agentes especialistas, multi-IDE (Claude Code, Cursor, Windsurf, Antigravity, Copilot, OpenCode, Trae). Zero dependências, do briefing à publicação.",
   "author": {
     "name": "Marcelo Leal",

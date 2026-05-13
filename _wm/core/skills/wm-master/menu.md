@@ -17,67 +17,76 @@
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  INICIAR PROJETO
+  O QUE VOCÊ QUER CRIAR HOJE?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1. 🚀 Site Novo Completo     — Fluxo completo (10 fases)
-  2. ⚡ Quick Site             — Site rápido em 1 sessão
-  3. 🎯 Landing Page           — LP de conversão em 1 sessão
-  4. 📄 Nova Página            — Adicionar página a site existente
+  1. 🚀 Site Novo Completo     — Fluxo guiado com 10 especialistas
+  2. ⚡ Quick Site             — Site profissional em 1 sessão
+  3. 🎯 Landing Page           — LP de conversão pra campanha/anúncio
+  4. 📄 Nova Página            — Adicionar página a um site existente
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  AGENTES ESPECIALIZADOS
+  FALAR DIRETO COM UM ESPECIALISTA
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  5. 🎯 Dante (Estrategista)    — Briefing e estratégia
-  6. ✍️  Bento (Conteúdo)       — Conteúdo e copywriting
-  7. 🎨 Luna (Designer)         — Paleta, tipografia e UI
-  8. 🔍 Leal (SEO)              — Schema, meta tags, SEO
-  8B. 📝 Leal Content           — Conteúdo semântico
-  8C. 📍 Leal Local             — Google Business, NAP, geo
-  9. 💻 Kael (Frontend)         — HTML5/CSS3/JS puro
- 10. ⚡ Noah (Performance)      — Core Web Vitals e WebP
- 11. 🤖 Zion (AI-Ready)         — WebMCP e llms.txt
- 12. ⚖️  Sara (Compliance)      — LGPD e privacidade
- 13. ✅ Vick (QA)               — Testes e validação
- 14. 🚀 Max (Launch)            — Deploy e pós-lançamento
+  5. 🎯 Dante       — Estrategista (briefing e estratégia)
+  6. ✍️  Bento      — Conteúdo (copy e textos)
+  7. 🎨 Luna       — Designer (paleta, tipografia, UI)
+  8. 🔍 Leal       — SEO (schema, meta tags)
+  9. 💻 Kael       — Frontend (HTML/CSS/JS)
+ 10. ⚡ Noah       — Performance (Core Web Vitals)
+ 11. 🤖 Zion       — AI-Ready (WebMCP e llms.txt)
+ 12. ⚖️  Sara      — Compliance (LGPD, privacidade)
+ 13. ✅ Vick       — QA (30 testes de qualidade)
+ 14. 🚀 Max        — Launch (deploy e pós-lançamento)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  UTILITÁRIOS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- 15. 🏗️  Schema Builder        — Gerar Schema.org JSON-LD
- 16. 📊 Relatório Técnico      — Gerar relatório HTML
- 17. 📑 Portfolio PDF          — Gerar PDF institucional
- 18. 📋 Checklist              — Verificar status do projeto
- 19. 📈 Progresso              — Visão geral do projeto
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Digite o número ou descreva o que precisa:
+  Digite o número ou me conta o que precisa em linguagem natural.
+  Ex: "quero uma landing page pra meu curso" — eu já te direciono.
 ```
 
-## Tabela de Roteamento
+> 💡 As ferramentas internas (schema builder, relatórios, PDFs, checklists)
+> são acionadas automaticamente pelos especialistas quando necessário.
+> Se quiser explicitamente, digite `ferramentas` ou `comandos avançados`.
+
+## Tabela de Roteamento (uso interno do Vinx)
 
 | Opção | Skill | Agente |
 |-------|-------|--------|
-| 1     | `wm-strategy` → fluxo completo | WM-00 orquestra |
+| 1     | `wm-strategy` → fluxo completo | Vinx orquestra |
 | 2     | `wm-quick-site` | Quick Builder |
-| 3     | `wm-landing-page` | Sara LP |
-| 4     | `wm-new-page` | WM-00 |
+| 3     | `wm-landing-page` | Lara |
+| 4     | `wm-new-page` | Vinx |
 | 5     | `wm-strategy` | Dante |
 | 6     | `wm-content` | Bento |
 | 7     | `wm-design` | Luna |
-| 8     | `wm-seo` | Leal |
-| 8B    | `wm-seo-content` | Leal Content |
-| 8C    | `wm-seo-local` | Leal Local |
+| 8     | `wm-seo` (Leal pode escalar para 8B/8C internamente) | Leal |
 | 9     | `wm-frontend` | Kael |
 | 10    | `wm-performance` | Noah |
 | 11    | `wm-ai-ready` | Zion |
 | 12    | `wm-compliance` | Sara |
 | 13    | `wm-qa` | Vick |
 | 14    | `wm-launch` | Max |
-| 15    | `wm-schema-builder` | Utility |
-| 16    | `wm-report` | Utility |
-| 17    | `wm-portfolio-pdf` | Utility |
-| 18    | `wm-checklist` | Utility |
-| 19    | `wm-progress` | Utility |
+
+## Ferramentas Internas (NÃO mostrar no menu padrão)
+
+Estas são utilitárias — invocadas automaticamente pelos especialistas quando necessário.
+Só mostrar ao usuário se ele pedir explicitamente (digitar "ferramentas", "comandos avançados", "modo dev"):
+
+| Ferramenta | Skill | Invocada por |
+|------------|-------|--------------|
+| Schema Builder | `wm-schema-builder` | Leal (automaticamente ao gerar Schema.org) |
+| Relatório Técnico | `wm-report` | Max (ao finalizar projeto) ou quando cliente pedir |
+| Portfolio PDF | `wm-portfolio-pdf` | Max (entrega final) ou quando cliente pedir |
+| Checklist | `wm-checklist` | Vick (antes de aprovar QA) |
+| Progresso | `wm-progress` | Vinx (quando usuário perguntar "onde estamos?") |
+| SEO Conteúdo | `wm-seo-content` | Leal (em áreas com múltiplas especialidades) |
+| SEO Local | `wm-seo-local` | Leal (em negócios locais) |
+
+### Como o Vinx lida com pedidos de ferramentas
+
+- Usuário pergunta "onde está meu projeto?" → invocar `wm-progress` direto
+- Usuário pergunta "como estão os testes?" → invocar `wm-checklist` direto
+- Usuário pergunta "quero um PDF do meu site" → invocar `wm-portfolio-pdf`
+- Usuário digita "ferramentas" / "comandos avançados" → mostrar a tabela acima
 
 ## Fluxo Completo (Opção 1)
 
@@ -85,14 +94,12 @@
 FASE 1 → wm-strategy     (briefing e estratégia)
 FASE 2 → wm-content      (conteúdo e copy)
 FASE 3 → wm-design       (design system)
-FASE 4 → wm-seo          (SEO base)
-  4B → wm-seo-content    (conteúdo semântico)
-  4C → wm-seo-local      (Google Business, NAP, geo)
+FASE 4 → wm-seo          (SEO + Leal decide internamente se chama 4B/4C)
 FASE 5 → wm-frontend     (desenvolvimento)
 FASES 6/7/8 → paralelo:
   wm-performance + wm-ai-ready + wm-compliance
-FASE 9 → wm-qa           (testes)
-FASE 10 → wm-launch      (lançamento)
+FASE 9 → wm-qa           (testes — Vick invoca wm-checklist internamente)
+FASE 10 → wm-launch      (lançamento — Max invoca wm-report e wm-portfolio-pdf)
 ```
 
 Gate entre cada fase: confirmar com usuário antes de avançar.

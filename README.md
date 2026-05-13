@@ -1,7 +1,7 @@
 # Website Method (wm-method) v2
 
 > Sistema BMad-style de criação de sites profissionais com IA.
-> **21 agentes especialistas**, **8 IDEs suportadas**, **zero dependências**.
+> **21 skills**, **8 IDEs suportadas**, **zero dependências**. Liderado pelo **Vinx** e um time de especialistas humanizados (Dante, Bento, Luna, Leal, Kael, Noah, Zion, Sara, Vick, Max, Lara).
 
 [![npm version](https://img.shields.io/npm/v/wm-method.svg)](https://www.npmjs.com/package/wm-method)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -42,7 +42,7 @@ seu-projeto/
 | **OpenCode / Trae** | digite `/wm-master` |
 | **Qualquer outra IA** | "Use o Website Method para criar um site" |
 
-O **WM-00 Master** vai detectar seu briefing automaticamente, mostrar o menu, e te guiar.
+O **Vinx** (maestro do Website Method) vai detectar seu briefing automaticamente, mostrar o menu, e te guiar.
 
 ---
 
@@ -90,40 +90,47 @@ node _wm/core/lib/sync.js --all
 
 ---
 
-## 🤖 Os 21 agentes
+## 🤖 O time
 
-### 🎯 Iniciar projeto
-| Agente | O que faz |
-|---|---|
-| `wm-master` | Menu principal (orquestrador) |
-| `wm-strategy` | **Dante** — briefing e estratégia |
-| `wm-quick-site` | Site completo em 1 sessão |
-| `wm-landing-page` | Landing Page de conversão |
-| `wm-new-page` | Adicionar página a site existente |
+São **21 skills** no total — 12 com identidade humana (que conversam com você) e 9 ferramentas internas (que os especialistas usam automaticamente).
 
-### 🛠️ Pipeline de criação
-| Agente | O que faz |
-|---|---|
-| `wm-content` | **Bento** — conteúdo e copywriting |
-| `wm-design` | **Luna** — paleta, tipografia, design system |
-| `wm-seo` | **Leal** — SEO on-page, Schema.org, meta tags |
-| `wm-seo-content` | **Leal Content** — conteúdo semântico |
-| `wm-seo-local` | **Leal Local** — Google Business, geo-targeting |
-| `wm-frontend` | **Kael** — HTML/CSS/JS puro, sem frameworks |
-| `wm-performance` | **Noah** — Core Web Vitals, WebP, lazy loading |
-| `wm-ai-ready` | **Zion** — WebMCP, llms.txt, AI-friendly |
-| `wm-compliance` | **Sara** — LGPD, política de privacidade |
-| `wm-qa` | **Vick** — 30 testes de qualidade |
-| `wm-launch` | **Max** — deploy e pós-lançamento |
+### 🎯 Quem fala com você
 
-### 🧰 Utilitários
-| Agente | O que faz |
-|---|---|
-| `wm-schema-builder` | Gerar Schema.org JSON-LD |
-| `wm-report` | Relatório técnico HTML pro cliente |
-| `wm-portfolio-pdf` | PDF institucional |
-| `wm-checklist` | Validar 150+ itens de produção |
-| `wm-progress` | Status do projeto |
+#### Entrada — escolha o tipo de projeto
+| Skill | Quem é | O que faz |
+|---|---|---|
+| `wm-master` | **Vinx** (maestro) | Te recebe e direciona pro especialista certo |
+| `wm-strategy` | **Dante** (estrategista) | Briefing e estratégia |
+| `wm-quick-site` | Quick Builder | Site completo em 1 sessão (~30 min) |
+| `wm-landing-page` | **Lara** (LP) | Landing Page de conversão |
+| `wm-new-page` | (Kael atende) | Adicionar página a site existente |
+
+#### Especialistas — fluxo completo de criação
+| Skill | Quem é | O que faz |
+|---|---|---|
+| `wm-content` | **Bento** | Conteúdo e copywriting |
+| `wm-design` | **Luna** | Paleta, tipografia, design system |
+| `wm-seo` | **Leal** | SEO on-page, Schema.org, meta tags |
+| `wm-seo-content` | **Leal Content** | Conteúdo semântico, topical authority |
+| `wm-seo-local` | **Leal Local** | Google Business, geo-targeting |
+| `wm-frontend` | **Kael** | HTML/CSS/JS puro, sem frameworks |
+| `wm-performance` | **Noah** | Core Web Vitals, WebP, lazy loading |
+| `wm-ai-ready` | **Zion** | WebMCP, llms.txt, AI-friendly |
+| `wm-compliance` | **Sara** | LGPD, política de privacidade |
+| `wm-qa` | **Vick** | 30 testes de qualidade |
+| `wm-launch` | **Max** | Deploy e pós-lançamento |
+
+### 🔧 Ferramentas internas (usadas pelos especialistas)
+
+Você não precisa invocar essas — os especialistas chamam quando necessário:
+
+| Skill | Acionada por | Quando |
+|---|---|---|
+| `wm-schema-builder` | Leal | Ao gerar Schema.org JSON-LD |
+| `wm-report` | Max | No lançamento (relatório técnico HTML pro cliente) |
+| `wm-portfolio-pdf` | Max | Na entrega final (PDF institucional) |
+| `wm-checklist` | Vick | Antes de aprovar QA |
+| `wm-progress` | Vinx | Quando você perguntar "onde estamos?" |
 
 ---
 
@@ -140,11 +147,11 @@ node _wm/core/lib/sync.js --all
 
 4. Aciona: /wm-master
 
-5. WM-00 lê o briefing, mostra o menu
+5. Vinx lê o briefing, mostra o menu
 
 6. Você escolhe (ex: 3 - Landing Page)
 
-7. Sara LP recebe o controle + briefing
+7. Lara recebe o controle + briefing
    ✓ Pula perguntas que já estão no briefing
    ✓ Pergunta só os gaps
 

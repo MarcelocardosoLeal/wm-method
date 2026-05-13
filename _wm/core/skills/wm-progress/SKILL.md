@@ -59,69 +59,61 @@ FASES
 
 ✅  FASE 1 — Estratégia & Briefing
     Artifacts: website-brief.md ✅
-    Agente: AG-01 | Skill: /wm-strategy
+    Agente: Dante | Skill: /wm-strategy
 
 ✅  FASE 2 — Conteúdo & Copy
     Artifacts: website-content.md ✅
-    Agente: AG-02 | Skill: /wm-content
+    Agente: Bento | Skill: /wm-content
 
 🔄  FASE 3 — Design System
     Artifacts: design-system.md ✅ | styles.css ⏳
-    Agente: AG-03 | Skill: /wm-design
+    Agente: Luna | Skill: /wm-design
     → Em progresso: estilos CSS pendentes
 
 ⏳  FASE 4 — SEO & Schema
     Artifacts: seo-implementation.md ⏳ | robots.txt ⏳ | sitemap.xml ⏳
-    Agente: AG-04 | Skill: /wm-seo
+    Agente: Leal | Skill: /wm-seo
     🔒 Aguardando FASE 3
 
 ⏳  FASE 4B — SEO Content (opcional)
     Artifacts: seo-content-[slug].md ⏳
-    Agente: AG-04B | Skill: /wm-seo-content
+    Agente: Leal Content | Skill: /wm-seo-content
     🔒 Aguardando FASE 4
 
 ⏳  FASE 4C — SEO Local (opcional)
     Artifacts: seo-local-implementation.md ⏳
-    Agente: AG-04C | Skill: /wm-seo-local
+    Agente: Leal Local | Skill: /wm-seo-local
     🔒 Aguardando FASE 4
 
 ⏳  FASE 5 — Desenvolvimento Frontend
     Artifacts: index.html ⏳ | styles.css ⏳ | script.js ⏳ | js/form.js ⏳
-    Agente: AG-05 | Skill: /wm-frontend
+    Agente: Kael | Skill: /wm-frontend
     🔒 Aguardando FASES 3 e 4
 
 ⏳  FASE 6 — Performance
     Artifacts: *.webp ⏳ | critical CSS ⏳
-    Agente: AG-06 | Skill: /wm-performance
+    Agente: Noah | Skill: /wm-performance
     🔒 Aguardando FASE 5
 
 ⏳  FASE 7 — AI-Ready
     Artifacts: webmcp.js ⏳ | llms.txt ⏳ | llms-full.txt ⏳
-    Agente: AG-07 | Skill: /wm-ai-ready
+    Agente: Zion | Skill: /wm-ai-ready
     🔒 Aguardando FASE 5 (pode rodar em paralelo com 6 e 8)
 
 ⏳  FASE 8 — LGPD Compliance
     Artifacts: politica-de-privacidade.html ⏳
-    Agente: AG-08 | Skill: /wm-compliance
+    Agente: Sara | Skill: /wm-compliance
     🔒 Aguardando FASE 5 (pode rodar em paralelo com 6 e 7)
 
 ⏳  FASE 9 — QA & Testes
     30 testes: [N] passaram | [N] falharam | [N] pendentes
-    Agente: AG-09 | Skill: /wm-qa
+    Agente: Vick | Skill: /wm-qa
     🔒 Aguardando FASES 6, 7 e 8
 
 ⏳  FASE 10 — Lançamento
     Artifacts: relatorio-seo.html ⏳ | portfolio.pdf ⏳
-    Agente: AG-10 | Skill: /wm-launch
+    Agente: Max | Skill: /wm-launch
     🔒 Aguardando FASE 9 (QA aprovado)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-UTILITÁRIOS DISPONÍVEIS (a qualquer momento)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  /wm-checklist      — Verificação detalhada de 150+ itens
-  /wm-schema-builder — Gerar Schema.org JSON-LD
-  /wm-report         — Relatório técnico HTML
-  /wm-portfolio-pdf  — PDF institucional
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 PRÓXIMA AÇÃO RECOMENDADA
